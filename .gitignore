@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Kotlin
+.kotlin/
+
+# Local configuration
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Android
+captures/
+.externalNativeBuild/
+.cxx/
+# 忽略构建产物 APK,但保留 release/ 下的发布 APK
+*.apk
+!release/*.apk
+*.aab
