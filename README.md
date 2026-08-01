@@ -24,10 +24,6 @@ A **ballistics calculator for Android** built with Kotlin + Jetpack Compose. It 
 | **Ballistic table** | Range / Drop / Windage / Velocity / Mach / Time / Energy at each point |
 | **History** | Save and reopen past calculations with full parameters |
 
-## Screenshots
-
-*(Add screenshots here — e.g. `docs/screenshot_input.png`, `docs/screenshot_result.png`)*
-
 ## Ballistics Engine
 
 The core engine is a pure-Kotlin point-mass solver using **4th-order Runge-Kutta** integration:
